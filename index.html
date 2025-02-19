@@ -161,8 +161,8 @@
         }
 
         .profile-image {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
             border-radius: 30px;
             overflow: hidden;
             position: relative;
@@ -608,7 +608,7 @@
                     <h1 class="hero-title">Frontend Developer & React Specialist</h1>
                     <p class="hero-subtitle">Crafting beautiful web experiences with modern technologies</p>
                     <!-- <a href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67a64b73dae27d0d64f61a0f" class="btn" onclick="downloadResume()"> -->
-                        <a target="_blank"  href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67a64b73dae27d0d64f61a0f" class="btn" OnClick="downloadResume()"> 
+                        <a target="_blank"  href="https://drive.google.com/file/d/1Yx7uhDFpaS1t2GWhzZLEWetOTFvRVsbW/view?usp=sharing" class="btn" OnClick="downloadResume()"> 
                         <i class="fas fa-download"></i>
                         Download Resume
                     </a>
@@ -669,7 +669,7 @@
                     <div class="skill-list">
                         <span class="skill-item">React.js</span>
                         <span class="skill-item">JavaScript (ES6+)</span>
-                        
+                      
                         <span class="skill-item">HTML5</span>
                         <span class="skill-item">CSS3</span>
                         
@@ -689,9 +689,7 @@
                     <h3 class="skill-title">Other Skills</h3>
                     <div class="skill-list">
                         <span class="skill-item">Redux</span>
-                        
-                       
-                       
+                
                         <span class="skill-item">UI/UX Design</span>
                       
                     </div>
@@ -821,7 +819,7 @@
         // Resume download functionality
        
             function downloadResume() {
-            fetch('PriyaTripathi-FrontendDeveloper(React)-Npyw (1).pdf') // Ensure the file exists in the same directory
+            fetch('PriyaTripathi-FrontendDeveloper(React)-J6JS.pdf') // Ensure the file exists in the same directory
             .then(response => {
                 if (!response.ok) {
                     throw new Error('File not found');
@@ -831,7 +829,7 @@
             .then(blob => {
                 const link = document.createElement('a');
                 link.href = URL.createObjectURL(blob);
-                link.download = 'PriyaTripathi-FrontendDeveloper(React)-Npyw (1).pdf';
+                link.download = 'PriyaTripathi-FrontendDeveloper(React)-J6JS.pdf';
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
